@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Frontend Web Development</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Frontend Development Test</h1>
+            <h3>HTML, CSS & JavaScript</h3>
+        </header>
+
+        <div id="loading">Initializing examination environment ...</div>
+
+        <div id="result-container" class="hidden">
+            <div class="score-card">
+                <h2>Examination Results</h2>
+                <div id="percentage-display"></div>
+                <div id="score-text"></div>
+                <button onclick="window.location.reload()" class="reset-btn">Retake Examination</button>
+            </div>
+            <hr class="divider">
+        </div>
+
+        <form id="quiz-form" class="hidden">
+            <div id="questions-container"></div>
+            <div class="form-footer">
+                <button type="submit" id="submit-btn">Finalize and Submit Exam</button>
+            </div>
+        </form>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
