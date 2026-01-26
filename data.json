@@ -1,0 +1,1325 @@
+[
+  {
+    "topic": "CSS",
+    "q": "How do you add a border to an element?",
+    "options": ["border-style: 1px", "border: 1px solid black", "outline: 1px", "border-color: black"],
+    "correct": 1,
+    "rationale": "Shorthand: width, style, color."
+  },
+  {
+    "topic": "CSS",
+    "q": "How do you hide an element so it takes up no space?",
+    "options": ["visibility: hidden", "opacity: 0", "display: none", "position: absolute"],
+    "correct": 2,
+    "rationale": "display: none removes the element from flow."
+  },
+  {
+    "topic": "CSS",
+    "q": "How do you select all &ltp&gt elements inside a &ltdiv&gt?",
+    "options": ["div p", "div + p", "div &gt p", "div.p"],
+    "correct": 0,
+    "rationale": "The descendant selector matches all nested elements."
+  },
+  {
+    "topic": "CSS",
+    "q": "How do you select all elements with the class 'container'?",
+    "options": ["#container", "container", ".container", "*container"],
+    "correct": 2,
+    "rationale": "Classes use the dot (.) prefix."
+  },
+  {
+    "topic": "CSS",
+    "q": "How do you select an element with id 'demo'?",
+    "options": [".demo", "demo", "#demo", "*demo"],
+    "correct": 2,
+    "rationale": "IDs are selected with the # symbol."
+  },
+  {
+    "topic": "CSS",
+    "q": "How do you select elements with class name 'test'?",
+    "options": ["test", "#test", ".test", "*test"],
+    "correct": 2,
+    "rationale": "Classes are selected with the . symbol."
+  },
+  {
+    "topic": "CSS",
+    "q": "What does 'fixed' position relate an element to?",
+    "options": ["Its parent", "The nearest absolute parent", "The viewport", "The document body"],
+    "correct": 2,
+    "rationale": "Fixed elements stay put even when scrolling the window."
+  },
+  {
+    "topic": "CSS",
+    "q": "What does 'opacity: 0' do?",
+    "options": ["Removes from DOM", "Hides element and keeps in layout", "Changes to white", "Non-clickable only"],
+    "correct": 1,
+    "rationale": "The element is invisible but still occupies layout space."
+  },
+  {
+    "topic": "CSS",
+    "q": "What is the correct CSS syntax to make all &ltp&gt elements bold?",
+    "options": ["p {font-weight:bold;}", "p {text-size:bold;}", "p {font:bold;}", "&ltp style='font-bold'&gt"],
+    "correct": 0,
+    "rationale": "Element selector + font-weight."
+  },
+  {
+    "topic": "CSS",
+    "q": "What is the default value of 'display' for a &ltdiv&gt?",
+    "options": ["inline", "block", "flex", "inline-block"],
+    "correct": 1,
+    "rationale": "Divs are block-level elements."
+  },
+  {
+    "topic": "CSS",
+    "q": "What is the default value of 'display' for a &ltspan&gt?",
+    "options": ["block", "inline", "flex", "inline-block"],
+    "correct": 1,
+    "rationale": "Spans are inline elements."
+  },
+  {
+    "topic": "CSS",
+    "q": "What is the default value of 'flex-direction'?",
+    "options": ["column", "row", "row-reverse", "column-reverse"],
+    "correct": 1,
+    "rationale": "Flexbox defaults to horizontal layout (row)."
+  },
+  {
+    "topic": "CSS",
+    "q": "What is the default value of the 'position' property?",
+    "options": ["relative", "fixed", "absolute", "static"],
+    "correct": 3,
+    "rationale": "Elements are 'static' by default, following normal flow."
+  },
+  {
+    "topic": "CSS",
+    "q": "What is the result of 'color: #000'?",
+    "options": ["White", "Blue", "Black", "Transparent"],
+    "correct": 2,
+    "rationale": "#000 is hex for black."
+  },
+  {
+    "topic": "CSS",
+    "q": "What is the standard order of the box model layers from inside to outside?",
+    "options": ["Content, Border, Padding, Margin", "Content, Padding, Border, Margin", "Margin, Border, Padding, Content", "Padding, Content, Border, Margin"],
+    "correct": 1,
+    "rationale": "Content is innermost, Padding surrounds content, Border surrounds padding, and Margin is the outermost space."
+  },
+  {
+    "topic": "CSS",
+    "q": "Which CSS property is used to specify the transparency of an element?",
+    "options": ["transparency", "opacity", "filter", "alpha"],
+    "correct": 1,
+    "rationale": "opacity ranges from 0 to 1."
+  },
+  {
+    "topic": "CSS",
+    "q": "Which CSS property is used to stack elements on top of each other?",
+    "options": ["layer", "position-top", "stack-order", "z-index"],
+    "correct": 3,
+    "rationale": "z-index controls the 3D depth/stacking."
+  },
+  {
+    "topic": "CSS",
+    "q": "Which CSS unit is equal to 1% of the viewport height?",
+    "options": ["em", "rem", "vh", "vw"],
+    "correct": 2,
+    "rationale": "vh stands for Viewport Height."
+  },
+  {
+    "topic": "CSS",
+    "q": "Which CSS unit is relative to the font-size of the root element?",
+    "options": ["em", "px", "rem", "vh"],
+    "correct": 2,
+    "rationale": "'rem' stands for Root EM."
+  },
+  {
+    "topic": "CSS",
+    "q": "Which Grid property defines the number and size of columns?",
+    "options": ["display: grid", "grid-template-rows", "grid-column-gap", "grid-template-columns"],
+    "correct": 3,
+    "rationale": "grid-template-columns sets layout structure."
+  },
+  {
+    "topic": "CSS",
+    "q": "Which property centers a flex container's items vertically (cross-axis)?",
+    "options": ["align-items", "justify-content", "flex-center", "vertical-align"],
+    "correct": 0,
+    "rationale": "align-items handles the cross-axis."
+  },
+  {
+    "topic": "CSS",
+    "q": "Which property changes the background color?",
+    "options": ["fill", "color", "bg-color", "background-color"],
+    "correct": 3,
+    "rationale": "background-color sets the element background."
+  },
+  {
+    "topic": "CSS",
+    "q": "Which property changes the list item marker (e.g. bullet point, number or roman numeral)?",
+    "options": ["list-type", "bullet-style", "list-style-type", "marker-type"],
+    "correct": 2,
+    "rationale": "list-style-type allows choosing markers."
+  },
+  {
+    "topic": "CSS",
+    "q": "Which property controls the text size?",
+    "options": ["font-size", "font-style", "text-size", "text-style"],
+    "correct": 0,
+    "rationale": "font-size defines the size of the font."
+  },
+  {
+    "topic": "CSS",
+    "q": "Which property creates a transition effect?",
+    "options": ["animation", "speed", "transform", "transition"],
+    "correct": 3,
+    "rationale": "transition defines how properties change over time."
+  },
+  {
+    "topic": "CSS",
+    "q": "Which property creates space outside an element's border?",
+    "options": ["border-spacing", "margin", "outline", "padding"],
+    "correct": 1,
+    "rationale": "Margin creates space outside the border."
+  },
+  {
+    "topic": "CSS",
+    "q": "Which property defines how to capitalize text?",
+    "options": ["font-case", "text-style", "text-transform", "text-variant"],
+    "correct": 2,
+    "rationale": "text-transform (uppercase, capitalize) handles case."
+  },
+  {
+    "topic": "CSS",
+    "q": "Which property defines the font thickness?",
+    "options": ["text-thickness", "font-size", "font-style", "font-weight"],
+    "correct": 3,
+    "rationale": "font-weight is used for bolding."
+  },
+  {
+    "topic": "CSS",
+    "q": "Which property defines whether a background image scrolls with the page?",
+    "options": ["background-attachment", "background-fixed", "background-scroll", "scroll-behavior"],
+    "correct": 0,
+    "rationale": "background-attachment can be 'fixed' or 'scroll'."
+  },
+  {
+    "topic": "CSS",
+    "q": "Which property is used to add a line over, under, or through text?",
+    "options": ["text-line", "text-decoration", "font-style", "text-style"],
+    "correct": 1,
+    "rationale": "text-decoration handles underlines and strikethroughs."
+  },
+  {
+    "topic": "CSS",
+    "q": "Which property is used to add a shadow to a box?",
+    "options": ["border-shadow", "box-shadow", "shadow", "text-shadow"],
+    "correct": 1,
+    "rationale": "box-shadow adds shadows to container elements."
+  },
+  {
+    "topic": "CSS",
+    "q": "Which property is used to add space between letters?",
+    "options": ["kerning", "word-spacing", "text-spacing", "letter-spacing"],
+    "correct": 3,
+    "rationale": "letter-spacing controls the gap between characters."
+  },
+  {
+    "topic": "CSS",
+    "q": "Which property is used to add space inside an element's border?",
+    "options": ["margin", "spacing", "padding", "border-width"],
+    "correct": 2,
+    "rationale": "Padding is internal spacing."
+  },
+  {
+    "topic": "CSS",
+    "q": "Which property is used to align text?",
+    "options": ["text-align", "align", "text-position", "font-align"],
+    "correct": 0,
+    "rationale": "text-align sets horizontal alignment."
+  },
+  {
+    "topic": "CSS",
+    "q": "Which property is used to change the font of an element?",
+    "options": ["font-family", "font-weight", "font-style", "font-variant"],
+    "correct": 0,
+    "rationale": "font-family specifies the typeface."
+  },
+  {
+    "topic": "CSS",
+    "q": "Which property is used to change the left margin of an element?",
+    "options": ["padding-left", "indent", "margin: left", "margin-left"],
+    "correct": 3,
+    "rationale": "margin-left targets the specific side."
+  },
+  {
+    "topic": "CSS",
+    "q": "Which property is used to change the left padding of an element?",
+    "options": ["margin-left", "padding-left", "indent", "left-padding"],
+    "correct": 1,
+    "rationale": "padding-left targets internal space on the left."
+  },
+  {
+    "topic": "CSS",
+    "q": "Which property is used to change the mouse cursor?",
+    "options": ["mouse", "pointer", "cursor", "icon"],
+    "correct": 2,
+    "rationale": "The cursor property (e.g., pointer) changes the UI icon."
+  },
+  {
+    "topic": "CSS",
+    "q": "Which property is used to justify items along the main axis in Flexbox?",
+    "options": ["align-items", "flex-start", "item-align", "justify-content"],
+    "correct": 3,
+    "rationale": "justify-content handles horizontal alignment in rows."
+  },
+  {
+    "topic": "CSS",
+    "q": "Which property is used to rotate an element?",
+    "options": ["rotate", "skew", "turn", "transform"],
+    "correct": 0,
+    "rationale": "rotate(deg) is the standard method."
+  },
+  {
+    "topic": "CSS",
+    "q": "Which property is used to set the color of a border?",
+    "options": ["bcolor", "border-color", "border-style", "border-width"],
+    "correct": 1,
+    "rationale": "border-color changes the border line color."
+  },
+  {
+    "topic": "CSS",
+    "q": "Which property is used to set the spacing between lines of text?",
+    "options": ["line-height", "text-spacing", "row-height", "font-spacing"],
+    "correct": 0,
+    "rationale": "line-height controls vertical text rhythm."
+  },
+  {
+    "topic": "CSS",
+    "q": "Which property is used to wrap text in a flex container?",
+    "options": ["wrap", "text-wrap", "flex-flow", "flex-wrap"],
+    "correct": 3,
+    "rationale": "flex-wrap: wrap allows items to move to a new line."
+  },
+  {
+    "topic": "CSS",
+    "q": "Which property makes the text bold?",
+    "options": ["font-weight: bold", "style: bold", "font-style: bold", "text-decoration: bold"],
+    "correct": 0,
+    "rationale": "font-weight sets thickness."
+  },
+  {
+    "topic": "CSS",
+    "q": "Which property sets the background image?",
+    "options": ["image", "background-image", "bg-img", "src"],
+    "correct": 1,
+    "rationale": "background-image: url() is the standard syntax."
+  },
+  {
+    "topic": "CSS",
+    "q": "Which selector styles a link that the user is currently clicking?",
+    "options": [":hover", ":visited", ":active", ":focus"],
+    "correct": 2,
+    "rationale": "The :active state triggers during the click."
+  },
+  {
+    "topic": "CSS",
+    "q": "Which selector styles an element when the mouse is over it?",
+    "options": [":focus", ":active", ":hover", ":visited"],
+    "correct": 2,
+    "rationale": "The :hover pseudo-class triggers on mouseover."
+  },
+  {
+    "topic": "HTML",
+    "q": "In HTML, which attribute is used to specify an image's source?",
+    "options": ["alt", "src", "href", "link"],
+    "correct": 1,
+    "rationale": "The 'src' attribute points to the image file."
+  },
+  {
+    "topic": "HTML",
+    "q": "What does the &ltnav&gt element represent?",
+    "options": ["Main site content", "Collection of navigation links", "Sidebar", "Website logo"],
+    "correct": 1,
+    "rationale": "&ltnav&gt is semantic markup for major navigation blocks."
+  },
+  {
+    "topic": "HTML",
+    "q": "What is the correct HTML for adding a background color?",
+    "options": ["&ltbody bg='yellow'&gt", "&ltbackground&gtyellow&lt/background&gt", "&ltbody style='bg-color:yellow;'&gt", "&ltbody style='background-color:yellow;'&gt"],
+    "correct": 3,
+    "rationale": "Inline styles use the 'style' attribute."
+  },
+  {
+    "topic": "HTML",
+    "q": "What is the correct HTML for creating a hyperlink?",
+    "options": ["&lta name=''&gt", "&lta url=''&gt", "&lta href=''&gt", "&ltlink&gt"],
+    "correct": 2,
+    "rationale": "The 'href' attribute is required for &lta&gt tags."
+  },
+  {
+    "topic": "HTML",
+    "q": "What is the correct HTML for making a checkbox?",
+    "options": ["&ltcheck&gt", "&ltcheckbox&gt", "&ltinput type='check'&gt", "&ltinput type='checkbox'&gt"],
+    "correct": 3,
+    "rationale": "Checkboxes use &ltinput type='checkbox'&gt."
+  },
+  {
+    "topic": "HTML",
+    "q": "What is the correct HTML for making a text input field?",
+    "options": ["&lttextfield&gt", "&ltinput type='textfield'&gt", "&ltinput type='text'&gt", "&lttextinput&gt"],
+    "correct": 2,
+    "rationale": "Standard text input uses type='text'."
+  },
+  {
+    "topic": "HTML",
+    "q": "What is the correct tag for a line break?",
+    "options": ["&ltbr&gt", "&ltbreak&gt", "&lthr&gt", "&ltlb&gt"],
+    "correct": 0,
+    "rationale": "&ltbr&gt is an empty element used to create a single line break."
+  },
+  {
+    "topic": "HTML",
+    "q": "Which HTML element defines a multi-line input field?",
+    "options": ["&ltinput type='textarea'&gt", "&lttextarea&gt", "&lttext&gt", "&ltinput type='textbox'&gt"],
+    "correct": 1,
+    "rationale": "The &lttextarea&gt element allows for multi-line text."
+  },
+  {
+    "topic": "HTML",
+    "q": "Which HTML element is used to define an ordered list?",
+    "options": ["&ltul&gt", "&ltlist&gt", "&ltol&gt", "&ltli&gt"],
+    "correct": 2,
+    "rationale": "&ltol&gt creates a numbered list."
+  },
+  {
+    "topic": "HTML",
+    "q": "Which HTML element is used to define an unordered list?",
+    "options": ["&ltli&gt", "&ltul&gt", "&ltol&gt", "&ltlist&gt"],
+    "correct": 1,
+    "rationale": "&ltul&gt creates a bulleted list."
+  },
+  {
+    "topic": "HTML",
+    "q": "Which HTML element is used to specify a header for a document or section?",
+    "options": ["&lthead&gt", "&ltheader&gt", "&ltsection&gt", "&lttop&gt"],
+    "correct": 1,
+    "rationale": "&ltheader&gt represents introductory content."
+  },
+  {
+    "topic": "HTML",
+    "q": "Which HTML element is used to specify a multi-line text input field?",
+    "options": ["&ltinput type='text'&gt", "&ltinput type='textarea'&gt", "&lttextarea&gt", "&lttext&gt"],
+    "correct": 2,
+    "rationale": "&lttextarea&gt is used for long text entries."
+  },
+  {
+    "topic": "HTML",
+    "q": "Which HTML5 element represents an independent piece of content?",
+    "options": ["&ltarticle&gt", "&ltdiv&gt", "&ltmain&gt", "&ltsection&gt"],
+    "correct": 0,
+    "rationale": "&ltarticle&gt is for content that could be distributed independently, like a blog post."
+  },
+  {
+    "topic": "HTML",
+    "q": "Which HTML5 tag is used to embed a video?",
+    "options": ["&ltembed&gt", "&ltmedia&gt", "&ltmovie&gt", "&ltvideo&gt"],
+    "correct": 3,
+    "rationale": "The &ltvideo&gt element is the HTML5 standard for video playback."
+  },
+  {
+    "topic": "HTML",
+    "q": "Which attribute defines the relationship between a link and the current document?",
+    "options": ["type", "rel", "href", "target"],
+    "correct": 1,
+    "rationale": "The 'rel' attribute (e.g., rel='stylesheet') defines the link type."
+  },
+  {
+    "topic": "HTML",
+    "q": "Which attribute provides a unique identifier for an element?",
+    "options": ["class", "id", "name", "type"],
+    "correct": 1,
+    "rationale": "The 'id' attribute must be unique within an HTML document."
+  },
+  {
+    "topic": "HTML",
+    "q": "Which attribute specifies an image's description for screen readers?",
+    "options": ["alt", "longdesc", "src", "title"],
+    "correct": 0,
+    "rationale": "The 'alt' attribute provides alternative text."
+  },
+  {
+    "topic": "HTML",
+    "q": "Which attribute specifies an input field to be mandatory input?",
+    "options": ["validate", "required", "needed", "placeholder"],
+    "correct": 1,
+    "rationale": "The 'required' attribute enforces client-side validation."
+  },
+  {
+    "topic": "HTML",
+    "q": "Which attribute specifies the document type?",
+    "options": ["&lt!DOCTYPE&gt", "&lthtml&gt", "&lthead&gt", "&ltmeta&gt"],
+    "correct": 0,
+    "rationale": "&lt!DOCTYPE html&gt is the first line of a HTML5 document."
+  },
+  {
+    "topic": "HTML",
+    "q": "Which attribute specifies where to open a linked document?",
+    "options": ["href", "rel", "src", "target"],
+    "correct": 3,
+    "rationale": "The 'target' attribute (e.g., _blank) tells the browser where to open the link."
+  },
+  {
+    "topic": "HTML",
+    "q": "Which attribute specifies where to send the form-data when a form is submitted?",
+    "options": ["action", "method", "src", "target"],
+    "correct": 0,
+    "rationale": "The 'action' attribute contains the URL for processing."
+  },
+  {
+    "topic": "HTML",
+    "q": "Which attribute is used to provide a tooltip for an element?",
+    "options": ["alt", "caption", "title", "tooltip"],
+    "correct": 2,
+    "rationale": "The 'title' attribute displays text when hovering."
+  },
+  {
+    "topic": "HTML",
+    "q": "Which character is used to indicate an end tag?",
+    "options": ["&lt", "^", "/", "*"],
+    "correct": 2,
+    "rationale": "The forward slash / indicates the closing of a tag."
+  },
+  {
+    "topic": "HTML",
+    "q": "Which element defines an image in an HTML page?",
+    "options": ["&ltimg&gt", "&ltgraphic&gt", "&ltpicture&gt", "&ltsource&gt"],
+    "correct": 0,
+    "rationale": "The &ltimg&gt tag is used to embed images."
+  },
+  {
+    "topic": "HTML",
+    "q": "Which element defines emphasized text?",
+    "options": ["&ltb&gt", "&ltem&gt", "&ltemp&gt", "&ltu&gt"],
+    "correct": 1,
+    "rationale": "&ltem&gt is semantic for emphasis."
+  },
+  {
+    "topic": "HTML",
+    "q": "Which element defines important text?",
+    "options": ["&ltb&gt", "&ltem&gt", "&ltimportant&gt", "&ltstrong&gt"],
+    "correct": 3,
+    "rationale": "&ltstrong&gt indicates strong importance."
+  },
+  {
+    "topic": "HTML",
+    "q": "Which element defines the main content of the document?",
+    "options": ["&ltbody&gt", "&ltcontent&gt", "&ltmain&gt", "&ltsection&gt"],
+    "correct": 2,
+    "rationale": "&ltmain&gt should be unique to the document."
+  },
+  {
+    "topic": "HTML",
+    "q": "Which element defines the title of the document (shown in browser tab)?",
+    "options": ["&lthead&gt", "&ltmeta&gt", "&ltheader&gt", "&lttitle&gt"],
+    "correct": 3,
+    "rationale": "The &lttitle&gt tag appears in the browser's title bar."
+  },
+  {
+    "topic": "HTML",
+    "q": "Which element groups related elements in a form?",
+    "options": ["&ltlegend&gt", "&ltfieldset&gt", "&ltgroup&gt", "&ltform-group&gt"],
+    "correct": 3,
+    "rationale": "&ltfieldset&gt draws a box around related form elements."
+  },
+  {
+    "topic": "HTML",
+    "q": "Which element is used for the most important heading?",
+    "options": ["&lth1&gt", "&lth6&gt", "&lthead&gt", "&ltheader&gt"],
+    "correct": 0,
+    "rationale": "&lth1&gt defines the most important heading on a page."
+  },
+  {
+    "topic": "HTML",
+    "q": "Which element is used to draw a line across the whole page?",
+    "options": ["&ltbr&gt", "&ltline&gt", "&lthr&gt", "&ltsection&gt"],
+    "correct": 2,
+    "rationale": "&lthr&gt draws a horizontal rule."
+  },
+  {
+    "topic": "HTML",
+    "q": "Which element is used to group the body content in a table?",
+    "options": ["&lttbody&gt", "&ltthead&gt", "&lttd&gt", "&lttr&gt"],
+    "correct": 0,
+    "rationale": "&lttbody&gt wraps the data rows of a table."
+  },
+  {
+    "topic": "HTML",
+    "q": "Which element represents a summary or caption for the &ltdetails&gt element?",
+    "options": ["&ltcaption-details&gt", "&ltsummary&gt", "&ltlegend&gt", "&lttitle&gt"],
+    "correct": 1,
+    "rationale": "&ltsummary&gt is the visible heading for the toggle."
+  },
+  {
+    "topic": "HTML",
+    "q": "Which method is used for sending sensitive form data?",
+    "options": ["GET", "HTTPS", "POST", "SECURE"],
+    "correct": 2,
+    "rationale": "POST is more secure as data is sent in the body."
+  },
+  {
+    "topic": "HTML",
+    "q": "Which tag defines a button that can be clicked?",
+    "options": ["&ltinput type='submit'&gt", "&ltclickable&gt", "&ltbutton&gt", "Both 1 and 3"],
+    "correct": 3,
+    "rationale": "Both &ltinput type='submit'&gt and &ltbutton&gt create clickable buttons."
+  },
+  {
+    "topic": "HTML",
+    "q": "Which tag defines a client-side script?",
+    "options": ["&ltcode&gt", "&ltscript&gt", "&ltjavascript&gt", "&ltjs&gt"],
+    "correct": 1,
+    "rationale": "&ltscript&gt is used for JavaScript."
+  },
+  {
+    "topic": "HTML",
+    "q": "Which tag defines a drop-down list?",
+    "options": ["&ltlist&gt", "&ltinput type='dropdown'&gt", "&ltselect&gt", "&ltdropdown&gt"],
+    "correct": 2,
+    "rationale": "The &ltselect&gt element creates a picklist."
+  },
+  {
+    "topic": "HTML",
+    "q": "Which tag defines a table row?",
+    "options": ["&lttd&gt", "&ltth&gt", "&lttr&gt", "&ltrow&gt"],
+    "correct": 2,
+    "rationale": "&lttr&gt stands for Table Row."
+  },
+  {
+    "topic": "HTML",
+    "q": "Which tag defines an inline frame?",
+    "options": ["&ltframe&gt", "&ltiframe&gt", "&ltwindow&gt", "&ltinline&gt"],
+    "correct": 1,
+    "rationale": "&ltiframe&gt embeds another page within the current one."
+  },
+  {
+    "topic": "HTML",
+    "q": "Which tag defines an option in a drop-down list?",
+    "options": ["&ltlistitem&gt", "&ltselectitem&gt", "&ltitem&gt", "&ltoption&gt"],
+    "correct": 3,
+    "rationale": "&ltoption&gt elements go inside &ltselect&gt."
+  },
+  {
+    "topic": "HTML",
+    "q": "Which tag defines the beginning of a cell in a table?",
+    "options": ["&lttd&gt", "&lttr&gt", "&ltth&gt", "Both 1 and 3"],
+    "correct": 3,
+    "rationale": "&lttd&gt is for standard cells; &ltth&gt is for header cells."
+  },
+  {
+    "topic": "HTML",
+    "q": "Which tag is for self-contained illustrative content with captions?",
+    "options": ["&ltaside&gt", "&ltcanvas&gt", "&ltfigure&gt", "&ltsection&gt"],
+    "correct": 2,
+    "rationale": "&ltfigure&gt combined with &ltfigcaption&gt is semantic."
+  },
+  {
+    "topic": "HTML",
+    "q": "Which tag is used to create an interactive widget that can be opened or closed?",
+    "options": [ "&ltdetails&gt", "&ltsection&gt", "&lttoggle&gt", "&ltwidget&gt"],
+    "correct": 0,
+    "rationale": "&ltdetails&gt allows users to hide or reveal content."
+  },
+  {
+    "topic": "HTML",
+    "q": "Which tag is used to define a container for an external (non-HTML) application?",
+    "options": ["&ltembed&gt", "&ltobject&gt", "&ltiframe&gt", "Both 1 and 2"],
+    "correct": 3,
+    "rationale": "&ltembed&gt and &ltobject&gt are both used for external plug-ins."
+  },
+  {
+    "topic": "HTML",
+    "q": "Which HTML element is used for marking up search results?",
+    "options": ["&ltsearch&gt", "&ltmark&gt", "&ltresult&gt", "&ltdetails&gt"],
+    "correct": 1,
+    "rationale": "&ltmark&gt is often used to highlight relevant search terms."
+  },
+  {
+    "topic": "HTML",
+    "q": "Which HTML element is used to embed a sound file?",
+    "options": ["&ltsound&gt", "&ltmusic&gt", "&ltaudio&gt", "&ltmp3&gt"],
+    "correct": 2,
+    "rationale": "The &ltaudio&gt tag is the standard for sound."
+  },
+  {
+    "topic": "Javascript",
+    "q": "Difference between 'let' and 'var'?",
+    "options": ["None", "var is newer", "let is function-scoped; var is block-scoped", "let is block-scoped; var is function-scoped"],
+    "correct": 3,
+    "rationale": "let provides better scoping."
+  },
+  {
+    "topic": "Javascript",
+    "q": "How do you call 'myFunction'?",
+    "options": ["myFunction()", "call myFunction()", "run myFunction()", "start myFunction()"],
+    "correct": 0,
+    "rationale": "Call using name and parentheses."
+  },
+  {
+    "topic": "Javascript",
+    "q": "How do you check if a value is Not-a-Number?",
+    "options": ["checkNaN()", "isNumber()", "isNan()", "isNaN()"],
+    "correct": 3,
+    "rationale": "isNaN() is the standard global function to check for NaN."
+  },
+  {
+    "topic": "Javascript",
+    "q": "How do you create a new Person object?",
+    "options": ["var p = Person()", "var p = new Person()", "var p = create Person()", "var p = Person.new()"],
+    "correct": 1,
+    "rationale": "The 'new' keyword creates an instance."
+  },
+  {
+    "topic": "Javascript",
+    "q": "How do you declare a JS variable?",
+    "options": ["variable carName;", "var carName;", "v carName;", "declare carName;"],
+    "correct": 1,
+    "rationale": "var, let, or const are valid."
+  },
+  {
+    "topic": "Javascript",
+    "q": "How do you declare a variable who value cannot be modified?",
+    "options": ["var", "let", "constant", "const"],
+    "correct": 3,
+    "rationale": "const is for constants."
+  },
+  {
+    "topic": "Javascript",
+    "q": "How do you find the highest value of x and y?",
+    "options": ["Math.ceil(x, y)", "Math.max(x, y)", "top(x, y)", "Math.high(x, y)"],
+    "correct": 1,
+    "rationale": "Math.max returns the largest number."
+  },
+  {
+    "topic": "Javascript",
+    "q": "How do you round 7.25 to the nearest integer?",
+    "options": ["Math.rnd(7.25)", "round(7.25)", "Math.round(7.25)", "rnd(7.25)"],
+    "correct": 2,
+    "rationale": "Math.round() is the correct method."
+  },
+  {
+    "topic": "Javascript",
+    "q": "How do you start a 'for' loop?",
+    "options": ["for (i &lt= 5; i++)", "for (i = 0; i &lt= 5; i++)", "for i = 1 to 5", "for (i = 0; i &lt= 5)"],
+    "correct": 1,
+    "rationale": "For loops require initialization, condition, and increment."
+  },
+  {
+    "topic": "Javascript",
+    "q": "How do you write 'Hello World' in an alert box?",
+    "options": ["msg('Hello World');", "alertBox('Hello World');", "alert('Hello World');", "console.log('Hello World');"],
+    "correct": 2,
+    "rationale": "alert() is the standard method."
+  },
+  {
+    "topic": "Javascript",
+    "q": "How do you write a comment?",
+    "options": ["&lt!-- comment --&gt", "// comment", "' comment", "# comment"],
+    "correct": 1,
+    "rationale": "// is for single-line comments."
+  },
+  {
+    "topic": "Javascript",
+    "q": "How do you write a conditional for 'not equal'?",
+    "options": ["if (i &lt&gt 10)", "if (i != 10)", "if i != 10 then", "if (i not= 10)"],
+    "correct": 1,
+    "rationale": "!= is the loose inequality operator."
+  },
+  {
+    "topic": "Javascript",
+    "q": "How do you write the standard way to write an array?",
+    "options": ["var c = (1, 2, 3)", "var c = [1, 2, 3]", "var c = {1, 2, 3}", "var c = &lt1, 2, 3&gt"],
+    "correct": 1,
+    "rationale": "Square brackets [] are for array literals."
+  },
+  {
+    "topic": "Javascript",
+    "q": "How many parameters can be passed to a function?",
+    "options": ["None", "One", "Up to 10", "Any number"],
+    "correct": 3,
+    "rationale": "Functions can take any amount of arguments."
+  },
+  {
+    "topic": "Javascript",
+    "q": "How to get a random number between 0 and 1?",
+    "options": ["Math.random()", "random()", "Math.rnd()", "getRand()"],
+    "correct": 0,
+    "rationale": "Math.random() returns 0 to &lt1."
+  },
+  {
+    "topic": "Javascript",
+    "q": "Result of '2' + 2?",
+    "options": ["4", "'22'", "NaN", "undefined"],
+    "correct": 1,
+    "rationale": "String + Number results in concatenation."
+  },
+  {
+    "topic": "Javascript",
+    "q": "Result of 2 + 2 + '2'?",
+    "options": ["6", "'222'", "'42'", "NaN"],
+    "correct": 2,
+    "rationale": "Left to right: 4 then concat '2'."
+  },
+  {
+    "topic": "Javascript",
+    "q": "What does DOM stand for?",
+    "options": ["Digital Object Mode", "Data Object Model", "Document Online Management", "Document Object Model"],
+    "correct": 3,
+    "rationale": "It is the tree structure of an HTML page."
+  },
+  {
+    "topic": "Javascript",
+    "q": "What is 'typeof []'?",
+    "options": ["array", "list", "object", "undefined"],
+    "correct": 2,
+    "rationale": "Arrays are technically objects in JS."
+  },
+  {
+    "topic": "Javascript",
+    "q": "What is the correct syntax for a function?",
+    "options": ["function = myFunction()", "function myFunction()", "func myFunction()", "new function myFunction()"],
+    "correct": 1,
+    "rationale": "Function declarations start with 'function'."
+  },
+  {
+    "topic": "Javascript",
+    "q": "What is the default value of an uninitialized variable?",
+    "options": ["null", "0", "NaN", "undefined"],
+    "correct": 3,
+    "rationale": "Variables declared but not assigned are undefined."
+  },
+  {
+    "topic": "Javascript",
+    "q": "What is the purpose of 'use strict'?",
+    "options": ["Speed", "Security", "New syntax", "Error prevention"],
+    "correct": 3,
+    "rationale": "Strict mode prevents common silent errors."
+  },
+  {
+    "topic": "Javascript",
+    "q": "What is the result of '10' * 2?",
+    "options": ["'1010'", "20", "NaN", "undefined"],
+    "correct": 1,
+    "rationale": "Multiplication triggers numeric coercion of the string."
+  },
+  {
+    "topic": "Javascript",
+    "q": "What is the result of '10' - 5?",
+    "options": ["5", "'5'", "15", "NaN"],
+    "correct": 0,
+    "rationale": "JavaScript coerces the string '10' to a number when using the subtraction operator."
+  },
+  {
+    "topic": "Javascript",
+    "q": "What is the result of 5 === '5'?",
+    "options": ["undefined", "true", "NaN", "false"],
+    "correct": 3,
+    "rationale": "Strict equality (===) returns false because the data types (number vs string) differ."
+  },
+  {
+    "topic": "Javascript",
+    "q": "What is the return type of 'typeof []'?",
+    "options": ["'array'", "'list'", "'object'", "'collection'"],
+    "correct": 2,
+    "rationale": "Arrays are specialized objects in JavaScript."
+  },
+  {
+    "topic": "Javascript",
+    "q": "What is the scope of a variable declared with 'var' inside a function?",
+    "options": ["Global", "Function-scoped", "Block-scoped", "Local to a loop"],
+    "correct": 1,
+    "rationale": "Var is scoped to the nearest function context."
+  },
+  {
+    "topic": "Javascript",
+    "q": "What is the value of an uninitialized variable?",
+    "options": ["0", "NaN", "null", "undefined"],
+    "correct": 3,
+    "rationale": "Variables without values are undefined."
+  },
+  {
+    "topic": "Javascript",
+    "q": "What result does '3' === 3 give?",
+    "options": ["true", "false", "undefined", "NaN"],
+    "correct": 1,
+    "rationale": "Strict equality fails because string != number."
+  },
+  {
+    "topic": "Javascript",
+    "q": "What will 10 + '5' result in?",
+    "options": ["Error",  "NaN", "15", "'105'"],
+    "correct": 3,
+    "rationale": "The + operator performs concatenation when a string is present."
+  },
+  {
+    "topic": "Javascript",
+    "q": "What will 10 - '5' result in?",
+    "options": ["5", "'5'", "NaN", "Error"],
+    "correct": 0,
+    "rationale": "The - operator forces numeric coercion."
+  },
+  {
+    "topic": "Javascript",
+    "q": "What will 'Boolean(10 &gt 9)' return?",
+    "options": ["NaN", "false", "true", "undefined"],
+    "correct": 2,
+    "rationale": "10 &gt 9 is true."
+  },
+  {
+    "topic": "Javascript",
+    "q": "Which adds an element to the end of an array?",
+    "options": ["push()", "pop()", "unshift()", "append()"],
+    "correct": 0,
+    "rationale": "push() adds to the end."
+  },
+  {
+    "topic": "Javascript",
+    "q": "Which comparison operator checks for inequality?",
+    "options": ["!=", "&lt&gt", "==", "!=="],
+    "correct": 0,
+    "rationale": "!= is for values; !== is for value or type."
+  },
+  {
+    "topic": "Javascript",
+    "q": "Which event occurs when a user clicks an element?",
+    "options": ["onchange", "onmouseover", "onclick", "onmouseclick"],
+    "correct": 2,
+    "rationale": "The onclick handler triggers on clicks."
+  },
+  {
+    "topic": "Javascript",
+    "q": "Which event triggers when the user leaves an input field?",
+    "options": ["onblur", "onfocus", "onclick", "onchange"],
+    "correct": 0,
+    "rationale": "onblur is the opposite of onfocus."
+  },
+  {
+    "topic": "Javascript",
+    "q": "Which function converts string to a whole number?",
+    "options": ["parseInt()", "parseFloat()", "Number()", "Math.round()"],
+    "correct": 0,
+    "rationale": "parseInt() parses a string to an integer."
+  },
+  {
+    "topic": "Javascript",
+    "q": "Which function is used to execute a block of code after a delay?",
+    "options": ["delay()", "setInterval()", "setTimeout()", "wait()"],
+    "correct": 2,
+    "rationale": "setTimeout() runs code once after ms delay."
+  },
+  {
+    "topic": "Javascript",
+    "q": "Which function parses a string and returns a floating point number?",
+    "options": ["parseInt()", "parseFloat()", "Number()", "Math.float()"],
+    "correct": 1,
+    "rationale": "parseFloat() handles decimals."
+  },
+  {
+    "topic": "Javascript",
+    "q": "Which keyword is used to declare a block-scoped variable?",
+    "options": ["var", "let", "const", "Both 1 and 2"],
+    "correct": 3,
+    "rationale": "let and const are block-scoped, introduced in ES6."
+  },
+  {
+    "topic": "Javascript",
+    "q": "Which keyword is used to define a function?",
+    "options": ["def", "func", "function", "method"],
+    "correct": 2,
+    "rationale": "function is the declaration keyword."
+  },
+  {
+    "topic": "Javascript",
+    "q": "Which keyword is used to exit a loop?",
+    "options": ["stop", "exit", "break", "return"],
+    "correct": 2,
+    "rationale": "break immediately terminates the current loop."
+  },
+  {
+    "topic": "Javascript",
+    "q": "Which keyword is used to handle exceptions?",
+    "options": ["error", "if...else", "switch", "try...catch"],
+    "correct": 3,
+    "rationale": "try...catch stops crashes from errors."
+  },
+  {
+    "topic": "Javascript",
+    "q": "Which keyword refers to the current object?",
+    "options": ["this", "self", "object", "current"],
+    "correct": 0,
+    "rationale": "'this' refers to the current execution context."
+  },
+  {
+    "topic": "Javascript",
+    "q": "Which loop will always execute at least once?",
+    "options": ["for", "while", "do...while", "forEach"],
+    "correct": 2,
+    "rationale": "A do...while loop executes the code block once before checking the condition."
+  },
+  {
+    "topic": "Javascript",
+    "q": "Which method adds an element to the front of an array?",
+    "options": ["push()", "pop()", "shift()", "unshift()"],
+    "correct": 3,
+    "rationale": "unshift() adds to the beginning of the array."
+  },
+  {
+    "topic": "Javascript",
+    "q": "Which method adds elements to the end of an array?",
+    "options": ["push()", "pop()", "shift()", "add()"],
+    "correct": 0,
+    "rationale": "push() appends to the end."
+  },
+  {
+    "topic": "Javascript",
+    "q": "Which method adds elements to the start of an array?",
+    "options": ["push()", "shift()", "unshift()", "add()"],
+    "correct": 2,
+    "rationale": "unshift() adds to the beginning."
+  },
+  {
+    "topic": "Javascript",
+    "q": "Which method changes the content of an HTML element?",
+    "options": ["innerHTML", "text", "textContent",  "Both 1 and 3"],
+    "correct": 3,
+    "rationale": "innerHTML and textContent are standard."
+  },
+  {
+    "topic": "Javascript",
+    "q": "Which method combines arrays?",
+    "options": ["combine()", "append()", "concat()", "add()"],
+    "correct": 2,
+    "rationale": "concat() returns a joined array."
+  },
+  {
+    "topic": "Javascript",
+    "q": "Which method creates a new array by performing a function on each element?",
+    "options": ["forEach()", "map()", "filter()", "transform()"],
+    "correct": 1,
+    "rationale": "map() returns a modified copy of the array."
+  },
+  {
+    "topic": "Javascript",
+    "q": "Which method extracts a section of an array and returns a new array?",
+    "options": ["slice()", "splice()", "split()", "cut()"],
+    "correct": 0,
+    "rationale": "slice() does not modify the original array."
+  },
+  {
+    "topic": "Javascript",
+    "q": "Which method joins two or more strings?",
+    "options": ["concat()", "join()", "merge()", "append()"],
+    "correct": 0,
+    "rationale": "concat() joins string or array elements."
+  },
+  {
+    "topic": "Javascript",
+    "q": "Which method removes the first element from an array?",
+    "options": ["pop()", "shift()", "unshift()", "slice()"],
+    "correct": 1,
+    "rationale": "shift() removes from the front and offsets indices."
+  },
+  {
+    "topic": "Javascript",
+    "q": "Which method removes the last element from an array?",
+    "options": ["pop()", "remove()", "shift()", "slice()"],
+    "correct": 0,
+    "rationale": "pop() removes and returns the last element."
+  },
+  {
+    "topic": "Javascript",
+    "q": "Which method removes whitespace from both ends of a string?",
+    "options": ["clean()", "cut()", "strip()", "trim()"],
+    "correct": 3,
+    "rationale": "trim() handles leading and trailing spaces."
+  },
+  {
+    "topic": "Javascript",
+    "q": "Which method returns a substring?",
+    "options": ["slice()", "sub()", "split()", "cut()"],
+    "correct": 0,
+    "rationale": "slice() extracts part of a string."
+  },
+  {
+    "topic": "Javascript",
+    "q": "Which method returns string length?",
+    "options": ["size()", "index()", "length", "count()"],
+    "correct": 2,
+    "rationale": ".length is a string property."
+  },
+  {
+    "topic": "Javascript",
+    "q": "Which method returns the character at a specific index in a string?",
+    "options": ["charAt()", "getIndex()", "char()", "at()"],
+    "correct": 0,
+    "rationale": "charAt(index) is a string method."
+  },
+  {
+    "topic": "Javascript",
+    "q": "How can you obtain the length of a string?",
+    "options": ["size()", "count()", "len()", "length"],
+    "correct": 3,
+    "rationale": ".length is the property that returns the length of a string."
+  },
+  {
+    "topic": "Javascript",
+    "q": "Which method rounds a number up to the nearest integer?",
+    "options": ["Math.round()", "Math.ceil()", "Math.floor()", "Math.up()"],
+    "correct": 1,
+    "rationale": "Math.ceil() always rounds up to the nearest integer."
+  },
+  {
+    "topic": "Javascript",
+    "q": "Which method is used to round a number to the nearest integer?",
+    "options": ["Math.ceil()", "Math.floor()", "Math.rnd()", "Math.round()"],
+    "correct": 3,
+    "rationale": "Math.round() follows standard rounding rules, by rounding down when the number is below 0.5 and rounding up at 0.5 or higher."
+  },
+  {
+    "topic": "Javascript",
+    "q": "Which method is used to find an element by its ID?",
+    "options": ["getElementById()", "findId()", "queryId()", "selectId()"],
+    "correct": 0,
+    "rationale": "getElementById is the most efficient lookup."
+  },
+  {
+    "topic": "Javascript",
+    "q": "Which method is used to output a message to the debugger?",
+    "options": ["alert()", "console.log()", "prompt()", "print()"],
+    "correct": 1,
+    "rationale": "console.log() is standard for debugging."
+  },
+  {
+    "topic": "Javascript",
+    "q": "Which of these is a valid 'if' statement?",
+    "options": ["if i = 5 then", "if i == 5 then", "if (i == 5)", "if i = 5"],
+    "correct": 2,
+    "rationale": "Conditionals require parentheses."
+  },
+  {
+    "topic": "Javascript",
+    "q": "Which object allows you to work with dates?",
+    "options": ["Time", "Calendar", "Clock", "Date"],
+    "correct": 3,
+    "rationale": "The Date object handles time and calendar data."
+  },
+  {
+    "topic": "Javascript",
+    "q": "Which object is used for mathematical tasks?",
+    "options": ["Math", "Arithmetic", "Calculation", "Number"],
+    "correct": 0,
+    "rationale": "The Math object provides constants and functions."
+  },
+  {
+    "topic": "Javascript",
+    "q": "Which operator assigns a value?",
+    "options": ["*", "==", "=", "==="],
+    "correct": 2,
+    "rationale": "The single equals sign is for assignment."
+  },
+  {
+    "topic": "Javascript",
+    "q": "Which operator is used to check for both value and type equality?",
+    "options": ["=", "==", "===", "!=="],
+    "correct": 2,
+    "rationale": "=== is the strict equality operator."
+  },
+  {
+    "topic": "Javascript",
+    "q": "Which operator is used to find the remainder of a division?",
+    "options": ["/", "rem", "%", "\\"],
+    "correct": 2,
+    "rationale": "The modulo operator (%) returns the remainder."
+  },
+  {
+    "topic": "Javascript",
+    "q": "Which operator is used for multiplication?",
+    "options": ["x", "*", "\u0026", "multi"],
+    "correct": 1,
+    "rationale": "The asterisk * is used."
+  },
+  {
+    "topic": "Javascript",
+    "q": "Which part of the Event Loop monitors the Call Stack and moves tasks from the Callback Queue?",
+    "options": ["Heap", "Web API", "Event Loop", "Call Stack"],
+    "correct": 2,
+    "rationale": "The Event Loop continuously checks if the stack is empty to process the queue."
+  },
+  
+  {
+    "topic": "Javascript",
+    "q": "Which statement is used to perform different actions based on different conditions?",
+    "options": ["switch", "if", "select", "Both 1 and 2"],
+    "correct": 3,
+    "rationale": "Both switch and if/else handle conditional logic."
+  },
+  {
+    "topic": "Javascript",
+    "q": "Which statement exits a loop?",
+    "options": ["stop", "exit", "break", "return"],
+    "correct": 2,
+    "rationale": "break terminates the current loop."
+  },
+  {
+    "topic": "Javascript",
+    "q": "Which symbol is used for comments?",
+    "options": ["//", "/* */", "#", "Both 0 and 1"],
+    "correct": 3,
+    "rationale": "// is for lines; /* */ is for blocks."
+  },
+  {
+    "topic": "Javascript",
+    "q": "Which symbol is used for logical AND?",
+    "options": ["\u0026", "\u0026\u0026", "AND", "||"],
+    "correct": 1,
+    "rationale": "\u0026\u0026 is the logical AND operator in JavaScript."
+  },
+  {
+    "topic": "Javascript",
+    "q": "Which symbol is used for logical OR?",
+    "options": ["|", "OR", "||", "\u0026\u0026"],
+    "correct": 2,
+    "rationale": "|| is the logical OR operator in JavaScript."
+  },
+  {
+    "topic": "Javascript",
+    "q": "Which variable name is invalid?",
+    "options": ["_name", "$price", "123num", "first_name"],
+    "correct": 2,
+    "rationale": "Variable names cannot start with a number."
+  },
+  {
+    "topic": "Javascript",
+    "q": "Which symbol is used as a shortcut for the jQuery function?",
+    "options": ["&", "$", "#", "@"],
+    "correct": 1,
+    "rationale": "The '$' sign is the standard shorthand alias for the 'jQuery()' function, used to select and manipulate elements."
+  },
+  {
+    "topic": "Javascript",
+    "q": "Which jQuery method is used to hide selected elements?",
+    "options": ["hidden()", "hide()", "invisible()", "display(none)"],
+    "correct": 1,
+    "rationale": "The '.hide()' method is a built-in jQuery function that hides elements by setting their CSS 'display' property to 'none'."
+  },
+  {
+    "topic": "Javascript",
+    "q": "What is the correct jQuery syntax to change the background color of all <p> elements to red?",
+    "options": [
+      "$(\"p\").style(\"background-color\",\"red\");",
+      "$(\"p\").css(\"background-color\",\"red\");",
+      "$(\"p\").layout(\"background-color\",\"red\");",
+      "$(\"p\").paint(\"background-color\",\"red\");"
+    ],
+    "correct": 1,
+    "rationale": "The '.css()' method is used to get or set style properties for selected elements in jQuery."
+  },
+  {
+    "topic": "Javascript",
+    "q": "Which jQuery function ensures that the code doesn't run until the DOM is fully loaded?",
+    "options": [
+      "$(window).load()",
+      "$(document).onload()",
+      "$(document).ready()",
+      "$(document).finished()"
+    ],
+    "correct": 2,
+    "rationale": "The '$(document).ready()' event triggers as soon as the DOM structure is ready, allowing scripts to interact with elements safely."
+  },
+  {
+    "topic": "Javascript",
+    "q": "Which jQuery syntax is correctly used to attach a click event to all paragraphs using the .on() method?",
+    "options": [
+      "$('p').on('click', function(){...});",
+      "$('p').on('event: click', function(){...});",
+      "$('p').trigger('click', function(){...});",
+      "$('p').attach('click', function(){...});"
+    ],
+    "correct": 0,
+    "rationale": "The .on() method takes the event name as the first string argument and the handler function as the second argument."
+  },
+  {
+    "topic": "Javascript",
+    "q": "What does the Fetch API return when called?",
+    "options": ["A JSON object", "A Promise", "An XML document", "A string"],
+    "correct": 1,
+    "rationale": "The fetch() function returns a Promise that resolves to the Response object representing the response to that request."
+  },
+  {
+    "topic": "Javascript",
+    "q": "Which method is used to parse a Fetch response body as JSON?",
+    "options": ["response.parse()", "response.getJson()", "response.json()", "response.body()"],
+    "correct": 2,
+    "rationale": "The .json() method on the Response object reads the request body to completion and returns a promise that resolves with the result of parsing the body text as JSON."
+  },
+  {
+    "topic": "Javascript",
+    "q": "Which property of the Response object should you check to see if a request was successful (status in the range 200-299)?",
+    "options": ["response.success", "response.ok", "response.statusText", "response.complete"],
+    "correct": 1,
+    "rationale": "The 'ok' property is a boolean indicating whether the response was successful (status in the range 200–299)."
+  },
+  {
+    "topic": "Javascript",
+    "q": "What is the default HTTP method used by the Fetch API if no method is specified?",
+    "options": ["POST", "PUT", "GET", "DELETE"],
+    "correct": 2,
+    "rationale": "By default, fetch() performs a GET request unless the configuration object specifies otherwise."
+  },
+  {
+    "topic": "Javascript",
+    "q": "When sending data in a POST request with Fetch, where should the serialized data be placed?",
+    "options": ["In the URL", "In the body property", "In the headers", "In the params property"],
+    "correct": 1,
+    "rationale": "The payload of a POST request is assigned to the 'body' property of the options object passed to fetch()."
+  },
+  {
+    "topic": "Javascript",
+    "q": "What is the initial state of a JavaScript Promise?",
+    "options": ["fulfilled", "rejected", "pending", "resolved"],
+    "correct": 2,
+    "rationale": "A Promise is 'pending' until it either settles as fulfilled or rejected."
+  },
+  {
+    "topic": "Javascript",
+    "q": "Which method is used to handle a Promise when it is successfully fulfilled?",
+    "options": [".then()", ".catch()", ".finally()", ".done()"],
+    "correct": 0,
+    "rationale": "The .then() method takes up to two arguments: callback functions for the success and failure cases of the Promise."
+  },
+  {
+    "topic": "Javascript",
+    "q": "How do you handle a rejection or error in a Promise chain?",
+    "options": [".error()", ".catch()", ".fail()", ".then(null, ...)"],
+    "correct": 1,
+    "rationale": "The .catch() method is the standard shorthand for handling rejections in a Promise chain."
+  },
+  {
+    "topic": "Javascript",
+    "q": "What is the behavior of Promise.all()?",
+    "options": [
+      "It executes promises one after another",
+      "It rejects only if all promises reject",
+      "It resolves only if all promises resolve",
+      "It resolves as soon as the first promise resolves"
+    ],
+    "correct": 3,
+    "rationale": "Promise.all() waits for all input promises to fulfill and rejects immediately if any of them reject."
+  },
+  {
+    "topic": "Javascript",
+    "q": "Which keyword is used to pause the execution of an async function until a Promise settles?",
+    "options": ["await", "wait", "pause", "stop"],
+    "correct": 0,
+    "rationale": "The await operator is used to wait for a Promise inside an async function."
+  }  
+]
