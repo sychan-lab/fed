@@ -329,6 +329,41 @@
     "rationale": "The :hover pseudo-class triggers on mouseover."
   },
   {
+    "topic": "CSS",
+    "q": "How many columns are in the default Bootstrap grid system?",
+    "options": ["6", "10", "12", "16"],
+    "correct": 2,
+    "rationale": "Bootstrap's grid system is based on a 12-column layout."
+  },
+  {
+    "topic": "CSS",
+    "q": "Which class provides a full-width container, spanning the entire width of the viewport?",
+    "options": [".container", ".container-fluid", ".container-fixed", ".container-full"],
+    "correct": 1,
+    "rationale": ".container-fluid provides a full width container, whereas .container has a fixed responsive width."
+  },
+  {
+    "topic": "CSS",
+    "q": "Which class is used to create a primary blue button?",
+    "options": [".btn-blue", ".btn-info", ".btn-main", ".btn-primary"],
+    "correct": 3,
+    "rationale": ".btn-primary is the standard Bootstrap class for the primary action button (usually blue)."
+  },
+  {
+    "topic": "CSS",
+    "q": "Which class is used to make an image scale with its parent element?",
+    "options": [".img-fluid", ".img-responsive", ".img-scale", ".img-fit"],
+    "correct": 0,
+    "rationale": "In Bootstrap 4 and 5, .img-fluid is used to make images responsive (max-width: 100% and height: auto)."
+  },
+  {
+    "topic": "CSS",
+    "q": "What is the correct utility class for adding a top margin of 3 units?",
+    "options": [".m-3", ".mt-3", ".margin-top-3", ".t-margin-3"],
+    "correct": 1,
+    "rationale": "Bootstrap uses shorthand for spacing: 'm' for margin, 't' for top, and a scale from 0-5."
+  },
+  {
     "topic": "HTML",
     "q": "In HTML, which attribute is used to specify an image's source?",
     "options": ["alt", "src", "href", "link"],
@@ -527,8 +562,8 @@
   {
     "topic": "HTML",
     "q": "Which element groups related elements in a form?",
-    "options": ["&ltlegend&gt", "&ltfieldset&gt", "&ltgroup&gt", "&ltform-group&gt"],
-    "correct": 3,
+    "options": ["&ltform-group&gt", "&ltlegend&gt", "&ltfieldset&gt", "&ltgroup&gt"],
+    "correct": 0,
     "rationale": "&ltfieldset&gt draws a box around related form elements."
   },
   {
