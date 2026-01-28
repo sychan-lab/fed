@@ -1329,6 +1329,18 @@
   },
   {
     "topic": "Javascript",
+    "q": "What is a primary advantage of the Fetch API over the older XMLHttpRequest?",
+    "options": [
+      "It supports synchronous requests by default",
+      "It is the only way to make requests to external domains",
+      "It automatically parses all responses into JavaScript objects without extra methods",
+      "It uses Promises, providing a cleaner and more manageable syntax for asynchronous operations"
+    ],
+    "correct": 3,
+    "rationale": "The Fetch API's use of Promises allows for better handling of asynchronous operations. It is also simpler and more powerful than XMLHttpRequest."
+  },
+  {
+    "topic": "Javascript",
     "q": "What is the default HTTP method used by the Fetch API if no method is specified?",
     "options": ["POST", "PUT", "GET", "DELETE"],
     "correct": 2,
@@ -1380,5 +1392,115 @@
     "options": ["await", "wait", "pause", "stop"],
     "correct": 0,
     "rationale": "The await operator is used to wait for a Promise inside an async function."
-  }  
+  },
+  {
+    "topic": "Javascript",
+    "q": "What does document.getElementById('myId') return if no element with that ID exists in the document?",
+    "options": ["null", "undefined", "[]", "false"],
+    "correct": 0,
+    "rationale": "If the element with the specified ID is not found, the method returns null."
+  },
+  {
+    "topic": "Javascript",
+    "q": "Is the ID parameter in getElementById() case-sensitive?",
+    "options": ["No, it matches regardless of case", "Yes, it must match the case exactly", "Only in Internet Explorer", "Only when using strict mode"],
+    "correct": 1,
+    "rationale": "ID strings are case-sensitive in the DOM."
+  },
+  {
+    "topic": "Javascript",
+    "q": "On which object is the getElementById() method most commonly called?",
+    "options": ["window", "element", "document", "navigator"],
+    "correct": 2,
+    "rationale": "getElementById is a method of the Document interface."
+  },
+  {
+    "topic": "Javascript",
+    "q": "If multiple elements in a document share the same ID, what will getElementById() return?",
+    "options": ["An array of all matching elements", "The last element with that ID", "An error", "The first element found with that ID"],
+    "correct": 3,
+    "rationale": "IDs should be unique, but if they aren't, the method returns the first one encountered in the DOM tree."
+  },
+  {
+    "topic": "Javascript",
+    "q": "Which of the following is the correct syntax for selecting an element with the ID 'main-header'?",
+    "options": ["document.getElementById(#main-header)", "document.getElementById('main-header')", "document.getElementBy('main-header')", "document.getElement('main-header')"],
+    "correct": 1,
+    "rationale": "The method takes a string argument and does not require the CSS '#' prefix."
+  },
+  {
+    "topic": "Javascript",
+    "q": "What is the return value of document.createElement('p')?",
+    "options": ["A string: '<p></p>'", "A new HTML Paragraph element object", "A boolean indicating success", "The index of the element in the DOM"],
+    "correct": 1,
+    "rationale": "It creates and returns the specified HTML element node."
+  },
+  {
+    "topic": "Javascript",
+    "q": "After calling document.createElement('div'), where is the element located in the document?",
+    "options": ["At the bottom of the <body>", "At the top of the <head>", "It exists in memory but is not yet in the DOM", "It replaces the current script tag"],
+    "correct": 2,
+    "rationale": "The element is created in memory and must be manually attached to the DOM using methods like appendChild()."
+  },
+  {
+    "topic": "Javascript",
+    "q": "What happens if you use appendChild() on a node that is already present in the DOM?",
+    "options": ["The node is cloned and a copy is added", "The node is moved from its current position to the new parent", "An error is thrown", "The operation is ignored"],
+    "correct": 1,
+    "rationale": "A node cannot be in two places at once; appendChild moves the existing node to the new location."
+  },
+  {
+    "topic": "Javascript",
+    "q": "Where does parent.appendChild(newChild) place the new child node relative to the parent's existing children?",
+    "options": ["As the very first child", "As the very last child", "Immediately before the parent node", "At a random index"],
+    "correct": 1,
+    "rationale": "The appendChild() method adds a node to the end of the list of children of a specified parent node."
+  },
+  {
+    "topic": "Javascript",
+    "q": "What does the parentNode.removeChild(childNode) method return?",
+    "options": ["A boolean true/false", "null", "The node that was removed", "undefined"],
+    "correct": 2,
+    "rationale": "The method returns a reference to the removed node, allowing it to be reused or re-inserted elsewhere."
+  },
+  {
+    "topic": "Javascript",
+    "q": "What happens if the node passed to removeChild() is not a child of the parent node?",
+    "options": ["A NotFoundError DOMException is thrown", "The function returns null silently", "The parent node itself is removed", "The first child of the parent is removed instead"],
+    "correct": 0,
+    "rationale": "If the node is not a child of the parent, the browser throws an error."
+  },
+  {
+    "topic": "Javascript",
+    "q": "What does the 'X' in AJAX stand for?",
+    "options": ["XHTML", "XML", "X-protocol", "XSLT"],
+    "correct": 1,
+    "rationale": "AJAX stands for Asynchronous JavaScript And XML, though modern implementations often use JSON."
+  },
+  {
+    "topic": "Javascript",
+    "q": "Which property of the XMLHttpRequest object is used to define a function to be called when the state changes?",
+    "options": ["onreadystatechange", "onstatuschange", "onstateclick", "onresponse"],
+    "correct": 0,
+    "rationale": "The onreadystatechange property defines a callback function that is triggered whenever the readyState property changes."
+  },
+  {
+    "topic": "Javascript",
+    "q": "Which method is used to specify the type of request (GET/POST) and the URL in an XMLHttpRequest?",
+    "options": ["send()", "request()", "open()", "set()"],
+    "correct": 2,
+    "rationale": "The open(method, url, async) method initializes a newly-created request."
+  },
+  {
+    "topic": "Javascript",
+    "q": "What is the main advantage of using AJAX in a web application?",
+    "options": [
+      "It uses Promises to handle asynchronous operations", 
+      "It enables secure communications between clients and servers", 
+      "It allows updating parts of a web page without reloading the whole page", 
+      "It uses XMLHttpRequest that handles synchronous operations efficiently"
+    ],
+    "correct": 2,
+    "rationale": "AJAX allows for asynchronous data exchange, improving user experience by avoiding full page refreshes."
+  }
 ]
