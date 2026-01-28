@@ -509,7 +509,7 @@
   {
     "topic": "HTML",
     "q": "Which attribute specifies an input field to be mandatory input?",
-    "options": ["validate", "required", "needed", "placeholder"],
+    "options": ["compulsory", "required", "needed", "mandatory"],
     "correct": 1,
     "rationale": "The 'required' attribute enforces client-side validation."
   },
