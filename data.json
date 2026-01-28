@@ -364,6 +364,30 @@
     "rationale": "Bootstrap uses shorthand for spacing: 'm' for margin, 't' for top, and a scale from 0-5."
   },
   {
+    "topic": "CSS",
+    "q": "Which of the following represents the color black in the RGB color model?",
+    "options": [
+      "rgb(255, 255, 255)",
+      "rgb(0, 0, 0)",
+      "rgb(255, 0, 0)",
+      "rgb(128, 128, 128)"
+    ],
+    "correct": 1,
+    "rationale": "In the RGB (Red, Green, Blue) model, black is the absence of all light, represented by the value 0 for each component."
+  },
+  {
+    "topic": "CSS",
+    "q": "What is the correct hexadecimal representation for the color blue?",
+    "options": [
+      "#FF0000",
+      "#00FF00",
+      "#0000FF",
+      "#FFFF00"
+    ],
+    "correct": 2,
+    "rationale": "Hexadecimal color codes follow the #RRGGBB format. #0000FF sets the blue intensity to the maximum (FF) while red and green are at 0."
+  },
+  {
     "topic": "HTML",
     "q": "In HTML, which attribute is used to specify an image's source?",
     "options": ["alt", "src", "href", "link"],
