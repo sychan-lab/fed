@@ -390,7 +390,7 @@
   {
     "topic": "HTML",
     "q": "In HTML, which attribute is used to specify an image's source?",
-    "options": ["alt", "src", "href", "link"],
+    "options": ["alt", "src", "href", "file"],
     "correct": 1,
     "rationale": "The 'src' attribute points to the image file."
   },
@@ -781,7 +781,7 @@
   },
   {
     "topic": "Javascript",
-    "q": "How do you write a comment?",
+    "q": "How do you write a comment in Javascript?",
     "options": ["&lt!-- comment --&gt", "// comment", "' comment", "# comment"],
     "correct": 1,
     "rationale": "// is for single-line comments."
@@ -848,13 +848,6 @@
     "options": ["function = myFunction()", "function myFunction()", "func myFunction()", "new function myFunction()"],
     "correct": 1,
     "rationale": "Function declarations start with 'function'."
-  },
-  {
-    "topic": "Javascript",
-    "q": "What is the default value of an uninitialized variable?",
-    "options": ["null", "0", "NaN", "undefined"],
-    "correct": 3,
-    "rationale": "Variables declared but not assigned are undefined."
   },
   {
     "topic": "Javascript",
@@ -1005,7 +998,7 @@
   },
   {
     "topic": "Javascript",
-    "q": "Which keyword is used to handle exceptions?",
+    "q": "Which keyword(s) is used to handle exceptions?",
     "options": ["error", "if...else", "switch", "try...catch"],
     "correct": 3,
     "rationale": "try...catch stops crashes from errors."
@@ -1118,7 +1111,7 @@
   {
     "topic": "Javascript",
     "q": "Which method returns the character at a specific index in a string?",
-    "options": ["charAt()", "getIndex()", "char()", "at()"],
+    "options": ["charAt()", "getIndex()", "char()", "getChar()"],
     "correct": 0,
     "rationale": "charAt(index) is a string method."
   },
