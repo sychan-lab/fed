@@ -712,7 +712,7 @@
   {
     "topic": "Javascript",
     "q": "Difference between 'let' and 'var'?",
-    "options": ["None", "var is newer", "let is function-scoped; var is block-scoped", "let is block-scoped; var is function-scoped"],
+    "options": ["None", "var was standardized in newer Javascript version", "let is function-scoped; var is block-scoped", "let is block-scoped; var is function-scoped"],
     "correct": 3,
     "rationale": "let provides better scoping."
   },
