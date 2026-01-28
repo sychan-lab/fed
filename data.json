@@ -367,12 +367,12 @@
     "topic": "CSS",
     "q": "Which of the following represents the color black in the RGB color model?",
     "options": [
-      "rgb(255, 255, 255)",
       "rgb(0, 0, 0)",
+      "rgb(255, 255, 255)",
       "rgb(255, 0, 0)",
       "rgb(128, 128, 128)"
     ],
-    "correct": 1,
+    "correct": 0,
     "rationale": "In the RGB (Red, Green, Blue) model, black is the absence of all light, represented by the value 0 for each component."
   },
   {
@@ -381,10 +381,10 @@
     "options": [
       "#FF0000",
       "#00FF00",
-      "#0000FF",
-      "#FFFF00"
+      "#FFFF00",
+      "#0000FF"
     ],
-    "correct": 2,
+    "correct": 3,
     "rationale": "Hexadecimal color codes follow the #RRGGBB format. #0000FF sets the blue intensity to the maximum (FF) while red and green are at 0."
   },
   {
