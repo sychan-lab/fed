@@ -1499,7 +1499,7 @@
   {
     "topic": "Javascript",
     "q": "What does this return? [1, 2, 3] + [4, 5, 6]",
-    "options": ["[1, 2, 3, 4, 5, 6]", "1,2,34,5,6", "NaN", "TypeError"],
+    "options": ["[1, 2, 3, 4, 5, 6]", "1, 2, 34, 5, 6", "1,2,3,4,5,6", "TypeError"],
     "correct": 1,
     "rationale": "The '+' operator converts arrays to strings and concatenates them. [1,2,3].toString() is '1,2,3' and [4,5,6].toString() is '4,5,6'."
   }
