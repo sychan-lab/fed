@@ -1495,5 +1495,33 @@
     ],
     "correct": 2,
     "rationale": "AJAX allows for asynchronous data exchange, improving user experience by avoiding full page refreshes."
+  },
+  {
+    "topic": "Javascript",
+    "q": "What is the output? \nfor (let i = 0; i < 3; i++) { \n  setTimeout(() => console.log(i), 1); \n}",
+    "options": ["0 1 2", "3 3 3", "0 0 0", "1 2 3"],
+    "correct": "0 1 2",
+    "rationale": "Because 'let' is block-scoped, a new 'i' is created for every iteration, preserving the value for each setTimeout callback."
+  },
+  {
+    "topic": "Javascript",
+    "q": "What does this return? [1, 2, 3] + [4, 5, 6]",
+    "options": ["[1, 2, 3, 4, 5, 6]", "1,2,34,5,6", "NaN", "TypeError"],
+    "correct": "1,2,34,5,6",
+    "rationale": "The '+' operator converts arrays to strings and concatenates them. [1,2,3].toString() is '1,2,3' and [4,5,6].toString() is '4,5,6'."
+  },
+  {
+    "topic": "Javascript",
+    "q": "What is logged? \nfunction foo() { \n  x = 10; \n} \nfoo(); \nconsole.log(x);",
+    "options": ["10", "ReferenceError", "undefined", "null"],
+    "correct": "10",
+    "rationale": "Assigning a value to an undeclared variable (without let, const, or var) creates a property on the global object in non-strict mode."
+  },
+  {
+    "topic": "Javascript",
+    "q": "What is the output? \nconsole.log(3 > 2 > 1);",
+    "options": ["true", "false", "1", "0"],
+    "correct": "false",
+    "rationale": "Comparison happens left-to-right. (3 > 2) is true. Then, (true > 1) is evaluated. true is coerced to 1, and 1 > 1 is false."
   }
 ]
