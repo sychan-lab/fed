@@ -1480,8 +1480,8 @@
   {
     "topic": "Javascript",
     "q": "Which method is used to specify the type of request (GET/POST) and the URL in an XMLHttpRequest?",
-    "options": ["send()", "request()", "open()", "set()"],
-    "correct": 2,
+    "options": ["open()", "request()", "send()", "set()"],
+    "correct": 0,
     "rationale": "The open(method, url, async) method initializes a newly-created request."
   },
   {
@@ -1498,114 +1498,9 @@
   },
   {
     "topic": "Javascript",
-    "q": "What is the output? \nfor (let i = 0; i < 3; i++) { \n  setTimeout(() => console.log(i), 1); \n}",
-    "options": ["0 1 2", "3 3 3", "0 0 0", "1 2 3"],
-    "correct": 0,
-    "rationale": "Because 'let' is block-scoped, a new 'i' is created for every iteration, preserving the value for each setTimeout callback."
-  },
-  {
-    "topic": "Javascript",
     "q": "What does this return? [1, 2, 3] + [4, 5, 6]",
     "options": ["[1, 2, 3, 4, 5, 6]", "1,2,34,5,6", "NaN", "TypeError"],
-    "correct": "1,2,34,5,6",
+    "correct": 1,
     "rationale": "The '+' operator converts arrays to strings and concatenates them. [1,2,3].toString() is '1,2,3' and [4,5,6].toString() is '4,5,6'."
-  },
-  {
-    "topic": "Javascript",
-    "q": "What will be the output of the following code snippet?\n\nlet x = 15;\nif (x &gt; 10) {\n  console.log('Greater');\n} else {\n  console.log('Lesser');\n}",
-    "options": ["Greater", "Lesser", "15", "Error"],
-    "correct": 0,
-    "rationale": "Since 15 is greater than 10, the 'if' condition is true, and the first block executes."
-  },
-  {
-    "topic": "Javascript",
-    "q": "What will the following code log to the console?\n\nlet color = 'red';\nif (color === 'blue') {\n  console.log('Blue');\n} else if (color === 'red') {\n  console.log('Red');\n} else {\n  console.log('None');\n}",
-    "options": ["Blue", "Red", "None", "undefined"],
-    "correct": 1,
-    "rationale": "The condition 'color === red' matches, so 'Red' is printed. The subsequent 'else' block is ignored."
-  },
-  {
-    "topic": "Javascript",
-    "q": "Which value will be logged?\n\nlet result = '';\nlet score = 50;\nif (score &gt;= 60) {\n  result = 'Pass';\n} else {\n  result = 'Fail';\n}\nconsole.log(result);",
-    "options": ["50", "60", "Pass", "Fail"],
-    "correct": 3,
-    "rationale": "Because 50 is less than 60, the 'else' block executes, setting result to 'Fail'."
-  },
-  {
-    "topic": "Javascript",
-    "q": "What is the result of the following snippet?\n\nlet isLogged = false;\nif (isLogged) {\n  console.log('Welcome');\n} else {\n  console.log('Please log in');\n}",
-    "options": ["false", "undefined", "Welcome", "Please log in"],
-    "correct": 3,
-    "rationale": "The boolean 'false' triggers the 'else' branch of the statement."
-  },
-  {
-    "topic": "Javascript",
-    "q": "What happens when this code runs?\n\nlet x = 0;\nif (x) {\n  console.log('Truthy');\n} else {\n  console.log('Falsy');\n}",
-    "options": ["0", "Truthy", "Falsy", "Error"],
-    "correct": 2,
-    "rationale": "In JavaScript, the number 0 behaves like 'false' in a conditional check."
-  },
-  {
-    "topic": "Javascript",
-    "q": "What is the value of 'sum' after the loop ends?\n\nlet sum = 0;\nfor (let i = 0; i &lt; 3; i++) {\n  sum += i;\n}\nconsole.log(sum);",
-    "options": ["0", "3", "5", "6"],
-    "correct": 1,
-    "rationale": "The loop runs for i = 0, 1, and 2. The total sum is 0 + 1 + 2 = 3."
-  },
-  {
-    "topic": "Javascript",
-    "q": "How many times will 'Hello' be printed?\n\nfor (let i = 1; i &lt;= 5; i += 2) {\n  console.log('Hello');\n}",
-    "options": ["2", "3", "4", "5"],
-    "correct": 1,
-    "rationale": "The loop executes for i values 1, 3, and 5. It stops when i becomes 7."
-  },
-  {
-    "topic": "Javascript",
-    "q": "What is the final output of this code?\n\nlet str = '';\nfor (let i = 0; i &lt; 4; i++) {\n  if (i === 2) continue;\n  str += i;\n}\nconsole.log(str);",
-    "options": ["2", "0123", "01", "013"],
-    "correct": 3,
-    "rationale": "The 'continue' statement skips the rest of the loop when i is 2, so only 0, 1, and 3 are appended."
-  },
-  {
-    "topic": "Javascript",
-    "q": "What will be the output of the following loop?\n\nlet arr = [10, 20];\nfor (let i = 0; i &lt; arr.length; i++) {\n  console.log(arr[i]);\n}",
-    "options": ["10 followed by 20", "20 followed by 10", "10 20 on one line", "2"],
-    "correct": 0,
-    "rationale": "The loop iterates through index 0 (10) and then index 1 (20)."
-  },
-  {
-    "topic": "Javascript",
-    "q": "What does this code log?\n\nlet x = 0;\nfor (let i = 0; i &lt; 10; i++) {\n  x = i;\n  break;\n}\nconsole.log(x);",
-    "options": ["0", "1", "9", "10"],
-    "correct": 0,
-    "rationale": "The 'break' statement terminates the loop immediately during the very first iteration (i=0)."
-  },
-  {
-    "topic": "Javascript",
-    "q": "What is the final value of 'i'?\n\nlet i = 0;\nwhile (i &lt; 3) {\n  i++;\n}\nconsole.log(i);",
-    "options": ["0", "2", "3", "4"],
-    "correct": 2,
-    "rationale": "The loop increments i from 0, to 1, to 2, and finally to 3, at which point (3 < 3) is false."
-  },
-  {
-    "topic": "Javascript",
-    "q": "What is the output of this do...while loop?\n\nlet x = 10;\ndo {\n  x++;\n} while (x &lt; 5);\nconsole.log(x);",
-    "options": ["10", "11", "5", "Error"],
-    "correct": 1,
-    "rationale": "A do...while loop executes the body once before checking the condition. x becomes 11, then the check (11 < 5) fails."
-  },
-  {
-    "topic": "Javascript",
-    "q": "How many times does this loop run?\n\nlet i = 0;\nwhile (i &lt; 0) {\n  console.log('Hi');\n  i++;\n}",
-    "options": ["0", "1", "Infinite", "Error"],
-    "correct": 0,
-    "rationale": "The condition (0 < 0) is false at the start, so the code block is never entered."
-  },
-  {
-    "topic": "Javascript",
-    "q": "What will the console show?\n\nlet items = ['a', 'b', 'c'];\nwhile (items.length &gt; 1) {\n  items.pop();\n}\nconsole.log(items[0]);",
-    "options": ["a", "b", "c", "undefined"],
-    "correct": 0,
-    "rationale": "The loop removes elements from the end until only one remains. 'c' and 'b' are removed, leaving 'a'."
   }
 ]
