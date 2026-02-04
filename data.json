@@ -1217,7 +1217,7 @@
   {
     "topic": "Javascript",
     "q": "Which statement exits a loop?",
-    "options": ["stop", "exit", "break", "return"],
+    "options": ["esc", "exit", "break", "return"],
     "correct": 2,
     "rationale": "break terminates the current loop."
   },
